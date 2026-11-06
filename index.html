@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CleanLock: Keyboard, Mouse & Touch Lock for Windows</title>
+<meta name="description" content="Lock your keyboard, mouse, touchpad and touchscreen in one click. Clean your laptop or let kids watch safely. For Windows.">
+<meta property="og:title" content="CleanLock: Keyboard, Mouse & Touch Lock">
+<meta property="og:description" content="Lock everything. Clean anything. A Windows app that locks keyboard, mouse, touchpad, touchscreen and pen in one click.">
+<style>
+:root{--bg:#0f1115;--card:#181b22;--text:#e8eaf0;--muted:#9aa3b2;--accent:#4f8cff;--line:#262a33}
+@media (prefers-color-scheme:light){:root{--bg:#f6f7fb;--card:#fff;--text:#171a21;--muted:#5b6474;--line:#e3e6ee}}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:48px 24px}
+.hero{text-align:center;padding:40px 0 24px}
+.logo{width:88px;height:88px;border-radius:24px;background:linear-gradient(135deg,#4f8cff,#7b5cff);display:inline-flex;align-items:center;justify-content:center;font-size:44px;margin-bottom:20px}
+h1{font-size:2.4rem;margin:0 0 8px;letter-spacing:-.02em}
+.tag{font-size:1.25rem;color:var(--muted);margin:0 0 4px}
+.tag-ar{font-size:1.15rem;color:var(--muted);margin:0 0 28px}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 22px;border-radius:12px;text-decoration:none;font-weight:600}
+.primary{background:var(--accent);color:#fff}
+.ghost{border:1px solid var(--line);color:var(--text)}
+.soon{display:block;font-size:.85rem;color:var(--muted);margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:48px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card h3{margin:6px 0 6px;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.ico{font-size:1.6rem}
+h2{font-size:1.5rem;margin:40px 0 12px}
+.ar{direction:rtl;text-align:right}
+.note{color:var(--muted);font-size:.9rem}
+footer{border-top:1px solid var(--line);margin-top:48px;padding-top:20px;color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="logo">🔒</div>
+    <h1>CleanLock</h1>
+    <p class="tag">Lock everything. Clean anything.</p>
+    <p class="tag-ar">اقفل كل شيء ونظّف بأمان</p>
+    <div class="btns">
+      <a class="btn primary" href="https://apps.microsoft.com/detail/9NNJ7LW60MJ2">Get it from Microsoft Store</a>
+      <a class="btn ghost" href="https://github.com/dwlbt/cleanlock">View on GitHub</a>
+    </div>
+    <span class="soon">Coming soon to the Microsoft Store · قريباً على متجر مايكروسوفت</span>
+  </section>
+
+  <div class="grid">
+    <div class="card"><div class="ico">⌨️🖱️</div><h3>Every input, one click</h3><p>Keyboard, mouse, touchpad, touchscreen and pen — locked together.</p></div>
+    <div class="card"><div class="ico">👆</div><h3>Gestures & edges blocked</h3><p>Touchpad 3- and 4-finger gestures and screen edge swipes stay quiet.</p></div>
+    <div class="card"><div class="ico">🧽</div><h3>Cleaning mode</h3><p>Wipe your keyboard and screen with an auto-unlock countdown.</p></div>
+    <div class="card"><div class="ico">👶🎬</div><h3>Kids & Watch modes</h3><p>Your video keeps playing while stray taps and keys are ignored.</p></div>
+    <div class="card"><div class="ico">⏱️</div><h3>Hold to unlock</h3><p>Hold Ctrl + Alt + U for 2 seconds — no accidental unlocks while cleaning.</p></div>
+    <div class="card"><div class="ico">🛡️</div><h3>Always safe</h3><p>Ctrl + Alt + Del always works, and CleanLock unlocks when Windows locks or sleeps.</p></div>
+  </div>
+
+  <section class="ar">
+    <h2>ما هو CleanLock؟</h2>
+    <p>تطبيق خفيف لويندوز يقفل لوحة المفاتيح والماوس ولوحة اللمس وشاشة اللمس والقلم بنقرة واحدة، لتنظيف جهازك أو ليشاهد أطفالك الفيديو بأمان، ثم تفتح القفل بالضغط المطوّل على Ctrl + Alt + U. لا يتصل بالإنترنت ولا يجمع أي بيانات، ويدعم العربية والإنجليزية.</p>
+  </section>
+
+  <p class="note">Some manufacturer Fn keys (like brightness or airplane mode) are handled by the device hardware and can't be blocked; CleanLock restores brightness and mic when you unlock. Touchpad gesture blocking requires a recent version of Windows 11.</p>
+
+  <footer>
+    <span>© 2026 Mohamed Dawelbait</span>
+    <span><a href="privacy.html">Privacy policy</a> · <a href="https://github.com/dwlbt/cleanlock/issues">Support</a> · <a href="https://www.linkedin.com/in/dwlb">LinkedIn</a></span>
+  </footer>
+</div>
+</body>
+</html>
