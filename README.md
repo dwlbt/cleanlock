@@ -4,9 +4,9 @@
 
 CleanLock is a lightweight Windows app that temporarily locks your **keyboard, mouse, touchpad, touchscreen and pen** in one click, so you can clean your laptop or let kids watch a video without stray presses. Unlock with a simple hold-to-unlock shortcut.
 
-🌐 **Website:** https://modawelbait.github.io/cleanlock/
+🌐 **Website:** https://dwlbt.github.io/cleanlock/
 🛒 **Microsoft Store:** https://apps.microsoft.com/detail/9NNJ7LW60MJ2 *(coming soon)*
-🔒 **Privacy policy:** https://modawelbait.github.io/cleanlock/privacy.html
+🔒 **Privacy policy:** https://dwlbt.github.io/cleanlock/privacy.html
 
 ## Features
 - One app for every input: keyboard, mouse, touchpad, touchscreen & pen
@@ -30,7 +30,7 @@ CleanLock is a lightweight Windows app that temporarily locks your **keyboard, m
 C# · .NET 10 · WPF · MSIX · Windows low-level input hooks · Precision Touchpad gestures API
 
 ## Support
-Found a bug or have a request? Open an [issue](https://github.com/MoDawelbait/cleanlock/issues).
+Found a bug or have a request? Open an [issue](https://github.com/dwlbt/cleanlock/issues).
 
 ---
 Made by [Mohamed Dawelbait](https://www.linkedin.com/in/dwlb) · © 2026
